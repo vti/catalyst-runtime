@@ -2,7 +2,6 @@ use strict;
 use warnings;
 
 use File::Spec;
-use FindBin ();
 use Test::More;
 use Test::NoTabs;
 

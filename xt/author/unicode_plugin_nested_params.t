@@ -5,7 +5,7 @@ use utf8;
 
 # setup library path
 use FindBin qw($Bin);
-use lib "$Bin/../lib";
+use lib "$Bin/../../t/lib";
 
 BEGIN { eval { require Catalyst::Plugin::Params::Nested; 1; } ||
     plan skip_all => 'Need Catalyst::Plugin::Params::Nested' }
