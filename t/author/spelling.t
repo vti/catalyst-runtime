@@ -137,6 +137,9 @@ add_stopwords(qw(
     willert
     wreis
     Venters
+    Mischa
+    Spiegelmock
+    revmischa
 ));
 set_spell_cmd('aspell list -l en');
 all_pod_files_spelling_ok();
