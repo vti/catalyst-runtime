@@ -136,6 +136,7 @@ add_stopwords(qw(
     vanstyn
     willert
     wreis
+    Venters
 ));
 set_spell_cmd('aspell list -l en');
 all_pod_files_spelling_ok();
